@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf ${NB_PYTHON_PREFIX}/share/gap/JupyterKernel-*
+ln -s $PWD ${NB_PYTHON_PREFIX}/share/gap/JupyterKernel
+pip install . --no-deps

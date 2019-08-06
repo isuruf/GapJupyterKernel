@@ -1,0 +1,8 @@
+name: gap-jupyter
+channels:
+  - conda-forge
+dependencies:
+  - gap
+  - notebook >=5.3
+  - pip
+
